@@ -1,7 +1,7 @@
 **Version 1:**
 
-*   home_screen
-*   charging_options
+*   Home_screen
+*   Charging_options
 
 **Version 1.1:**
 
