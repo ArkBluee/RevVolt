@@ -1,7 +1,7 @@
 from PyQt6.QtWidgets import QApplication, QMainWindow, QStackedWidget
-from home_screen import HomeScreen
-from charging_options import ChargingOptionsScreen
-
+from screens import HomeScreen
+from screens import ChargingOptionsScreen
+from screens import ChargingScreen
 
 class RevVoltApp(QMainWindow):
     """ Main Application Class """
@@ -18,6 +18,7 @@ class RevVoltApp(QMainWindow):
         # Add Screens to StackedWidget
         self.stacked_widget.addWidget(HomeScreen(self.stacked_widget))
         self.stacked_widget.addWidget(ChargingOptionsScreen(self.stacked_widget))
+        self.stacked_widget.addWidget(ChargingScreen(self.stacked_widget))
 
 
 # Run the App
