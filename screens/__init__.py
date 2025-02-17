@@ -2,6 +2,8 @@
 
 from .home_screen import HomeScreen
 from .charging_options import ChargingOptionsScreen
-from .charging_status import ChargingScreen  # Ensure this exists
+from .insert_coin import InsertCoinScreen 
+from .charging_status import ChargingStatus # Ensure this exists
+ 
 
-__all__ = ["HomeScreen", "ChargingOptionsScreen", "ChargingStatusScreen"]
+__all__ = ["HomeScreen", "ChargingOptionsScreen", "InsertCoinScreen", "ChargingStatus"]
